@@ -1,0 +1,48 @@
+.item{
+    height: 100vw;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.item__container{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item__text{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    color: #393c41;
+    align-items: center;
+    flex: 1;
+}
+
+.item__textDescription{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.item__lowerThird{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.items__buttons{
+    display: flex;
+}
+
+.item__expand{
+    color: white;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center ;
+}
