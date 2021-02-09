@@ -1,0 +1,27 @@
+.footer__center{
+    color: grey;
+    margin-top: 3%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.footer__center > p{
+    margin: 10px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer__center{
+        color: grey;
+        margin-top: 3%;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+    
+    .footer__center > p{
+        margin: 3px;
+        font-size: 12px;
+    }
+}

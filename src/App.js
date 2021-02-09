@@ -35,6 +35,7 @@ function App() {
           rightBtnTxt="Learn More"
           rightBtnLink=""
           twoButtons={true}
+          
         />
         <Item
           title="Model 3"
@@ -70,16 +71,29 @@ function App() {
           twoButtons={true}
         />
         <Item
-          title="Solar Roof"
-          desc="Money-back guarantee"
+          title="Solar for New Roofs"
+          desc="Solar Roof Costs Less Than a New Roof Plus Solar Panels"
           descLink=""
           backgroundImg={SolarRoof}
           leftBtnTxt="Order Now"
           leftBtnLink=""
-          rightBtnTxt=""
+          rightBtnTxt="Learn More"
           rightBtnLink=""
-          twoButtons={false}
+          twoButtons={true}
         />
+
+        <Item       
+            title = 'Accessories'
+            desc = ''
+            descLink =''
+            backgroundImg={Accessories}
+            leftBtnTxt = 'SHOP NOW'
+            leftBtnLink = ''
+            rightBtnTxt = 'LEARN MORE'
+            rightBtnLink = ''
+            twoButtons = {true}
+            last
+            />
       </div>
     </div>
   );

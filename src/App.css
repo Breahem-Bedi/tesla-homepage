@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.app__itemsContainer{
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
